@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arrow Function JS</title>
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+      .main-container {
+      max-width: 400px;
+      height: 80vh;
+      margin: auto;
+      background-image:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(https://i.pinimg.com/236x/c3/f7/a8/c3f7a838904b18fbb915fa41a59e2ccf.jpg);
+      background-size: cover;
+      border: 1px solid #ced4da;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      margin-top: 50px;
+
+    }
+    * {
+        color: rgb(252, 246, 246);
+    }
+    .form-control {
+      margin-bottom: 15px;
+    }
+    .btn-primary {
+      background-color: #007bff;
+      border-color: #007bff;
+    }
+    .btn-primary:hover {
+      background-color: #0056b3;
+      border-color: #0056b3;
+    }
+    #result {
+      font-weight: bold;
+      text-align: center   ;
+    }
+    body {
+     background-color: #1d1f21;
+     color: #c5c8c6;
+    }
+    input[type="number"] {
+    background-color: #282a2e;
+    border: 1px solid #45474b;
+    color: #c5c8c6;
+    }
+   
+  </style>
+</head>
+<body>
+
+  <div class="container main-container">
+    <h2 class="text-center mb-4">Arrow Function</h2>
+
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="num1">Input First Number:</label>
+        <input type="number" class="form-control inputn" id="num1">
+      </div>
+      <div class="form-group col-md-6">
+        <label for="num2">Input Second Number:</label>
+        <input type="number" class="form-control" id="num2">
+      </div>
+     
+    </div>
+
+    <div class="form-group text-center">
+      <button type="button" class="btn btn-secondary" onclick="calculate()">Calculate</button>
+    </div>
+
+    <div class="form-group mt-3 result-paragraphs">
+      <label for="result"><h3>Result:</h3></label>
+      <div id="result" class="result-paragraphs"></div>
+    </div>
+  </div>
+
+  <script src="myjs.js"></script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
